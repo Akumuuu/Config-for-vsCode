@@ -37,5 +37,6 @@
   "editor.fontSize": 13,
   "editor.lineHeight": 1.7,
   "symbols.hidesExplorerArrows": false,
-  "workbench.editor.labelFormat": "short"
+  "workbench.editor.labelFormat": "short",
+  "editor.renderLineHighlight": "gutter"
 }
