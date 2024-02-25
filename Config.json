@@ -40,5 +40,6 @@
   "workbench.editor.labelFormat": "short",
   "editor.renderLineHighlight": "gutter",
    "breadcrumbs.enabled": false,
-  "workbench.productIconTheme": "fluent-icons"
+  "workbench.productIconTheme": "fluent-icons",
+  "lldb.suppressUpdateNotifications": true
 }
