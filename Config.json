@@ -1,9 +1,8 @@
 {
   "files.autoSave": "onFocusChange",
   "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": true, // форматировать код при сохранении
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "workbench.iconTheme": "material-icon-theme",
   "editor.guides.bracketPairs": "active",
   "code-runner.runInTerminal": true,
   "[html]": {
@@ -14,32 +13,37 @@
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "editor.tabSize": 2, 
-  "explorer.compactFolders": false, 
-  "editor.smoothScrolling": true, 
-  "workbench.list.smoothScrolling": true, 
-  "terminal.integrated.smoothScrolling": true, 
-  "editor.cursorBlinking": "expand", 
-  "terminal.integrated.cursorBlinking": true, 
+  "editor.tabSize": 2, // размер таба
+  "explorer.compactFolders": false, // компактные папки
+  "editor.smoothScrolling": true, // плавный скролл
+  "workbench.list.smoothScrolling": true, // плавный скролл
+  "terminal.integrated.smoothScrolling": true, // плавный скролл в терминале
+  "editor.cursorBlinking": "expand", // мигающей курсор
+  "terminal.integrated.cursorBlinking": true, // мигающей курсор
   "editor.glyphMargin": false,
   "editor.linkedEditing": true,
   "editor.padding.top": 15,
   "git.suggestSmartCommit": false,
   "git.autofetch": true,
 
-  "editor.fontFamily": "JetBrains Mono NL Medium",
+  // Font
+  "editor.fontFamily": "JetBrains Mono NL Medium", // Шрифт
   "editor.fontLigatures": true,
 
   "editor.accessibilitySupport": "off",
   "editor.minimap.enabled": true,
   "prettier.singleQuote": true,
-  "workbench.colorTheme": "Halcyon",
   "editor.fontSize": 13,
   "editor.lineHeight": 1.7,
   "symbols.hidesExplorerArrows": false,
   "workbench.editor.labelFormat": "short",
   "editor.renderLineHighlight": "gutter",
-   "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": false,
   "workbench.productIconTheme": "fluent-icons",
-  "lldb.suppressUpdateNotifications": true
+  "lldb.suppressUpdateNotifications": true,
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Halcyon",
+  "files.associations": {
+    "*.tsx": "javascriptreact"
+  }
 }
