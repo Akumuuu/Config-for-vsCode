@@ -40,11 +40,11 @@
   "editor.renderLineHighlight": "gutter",
   "breadcrumbs.enabled": false,
   "workbench.productIconTheme": "fluent-icons",
-  "lldb.suppressUpdateNotifications": true,
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Halcyon",
   "files.associations": {
     "*.tsx": "javascriptreact"
-  }
-  "javascript.validate.enable": false
+  },
+  "javascript.validate.enable": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "workbench.colorTheme": "Halcyon"
 }
