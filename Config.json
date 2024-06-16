@@ -45,6 +45,5 @@
     "*.tsx": "javascriptreact"
   },
   "javascript.validate.enable": false,
-  "prisma.showPrismaDataPlatformNotification": false,
   "workbench.colorTheme": "Halcyon"
 }
