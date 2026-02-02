@@ -6,7 +6,7 @@
   "editor.guides.bracketPairs": "active",
   "code-runner.runInTerminal": true,
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "vscode.html-language-features",
   },
   "liveServer.settings.donotVerifyTags": true,
 
@@ -41,10 +41,10 @@
   "breadcrumbs.enabled": false,
   "workbench.productIconTheme": "fluent-icons",
   "files.associations": {
-    "*.tsx": "javascriptreact"
+    "*.tsx": "javascriptreact",
   },
   "javascript.validate.enable": false,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "flow-dawn",
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
     "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
@@ -57,7 +57,7 @@
     "*.sqlite3": "${capture}.${extname}-*",
     "*.db3": "${capture}.${extname}-*",
     "*.sdb": "${capture}.${extname}-*",
-    "*.s3db": "${capture}.${extname}-*"
+    "*.s3db": "${capture}.${extname}-*",
   },
   "vscode-pets.theme": "beach",
   "vscode-pets.petSize": "small",
@@ -68,15 +68,16 @@
   "gitlens.gitCommands.skipConfirmations": [
     "fetch:command",
     "stash-push:command",
-    "switch:command"
+    "switch:command",
   ],
   "[dockercompose]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.autoIndent": "advanced",
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
 }
