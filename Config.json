@@ -33,7 +33,6 @@
   "editor.accessibilitySupport": "off",
   "editor.minimap.enabled": true,
   "prettier.singleQuote": true,
-  "editor.fontSize": 13,
   "editor.lineHeight": 1.7,
   "symbols.hidesExplorerArrows": false,
   "workbench.editor.labelFormat": "short",
@@ -43,8 +42,7 @@
   "files.associations": {
     "*.tsx": "javascriptreact",
   },
-  "javascript.validate.enable": false,
-  "workbench.iconTheme": "flow-dawn",
+  "js/ts.validate.enabled": false,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
     "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
@@ -59,10 +57,7 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*",
   },
-  "vscode-pets.theme": "beach",
-  "vscode-pets.petSize": "small",
   "files.eol": "\n",
-  "workbench.colorTheme": "Halcyon",
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   "gitlens.gitCommands.skipConfirmations": [
@@ -80,4 +75,11 @@
     "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "editor.unicodeHighlight.invisibleCharacters": false,
+  "redhat.telemetry.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "workbench.iconTheme": "flow-deep",
+  "terminal.integrated.initialHint": false,
+  "workbench.colorTheme": "Halcyon",
+  "flow-icons.hidesExplorerArrows": true,
 }
