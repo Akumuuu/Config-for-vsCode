@@ -80,6 +80,5 @@
   "python-envs.defaultEnvManager": "ms-python.python:system",
   "workbench.iconTheme": "flow-deep",
   "terminal.integrated.initialHint": false,
-  "workbench.colorTheme": "Halcyon",
-  "flow-icons.hidesExplorerArrows": true,
+  "workbench.colorTheme": "AShineUI",
 }
